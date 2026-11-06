@@ -1,0 +1,22 @@
+Experiment,State / Metric,Theoretical,Simulated,Notes
+Single Gate I,P(|0⟩),1.0,1.0,Identity Gate (state preserved)
+Single Gate X,P(|1⟩),1.0,1.0,Pauli-X Gate (bit-flip)
+Single Gate Y,P(|1⟩),1.0,1.0,Pauli-Y Gate (bit and phase flip)
+Single Gate Z,P(|0⟩),1.0,1.0,Pauli-Z Gate (phase flip on |1⟩)
+Single Gate H,P(|0⟩),0.5,0.5,Hadamard creates equal superposition |+⟩
+Single Gate S,P(|0⟩),1.0,1.0,Phase gate S (pi/2 phase)
+Single Gate T,P(|0⟩),1.0,1.0,Phase gate T (pi/4 phase)
+Superposition |+⟩ (1024 shots),P(|0⟩),0.5,0.4932,Sampling error std ~ 0.0156
+Superposition |+⟩ (10000 shots),P(|0⟩),0.5,0.5018,Sampling error std ~ 0.0050
+Bell State |Φ+⟩,P(|00⟩),0.5,0.4984,Correlated symmetric pair (|00⟩ + |11⟩)/√2
+Bell State |Φ+⟩,P(|11⟩),0.5,0.5016,Correlated symmetric pair (|00⟩ + |11⟩)/√2
+Bell State |Φ-⟩,P(|00⟩),0.5,0.4962,Phase antisymmetric pair (|00⟩ - |11⟩)/√2
+Bell State |Φ-⟩,P(|11⟩),0.5,0.5038,Phase antisymmetric pair (|00⟩ - |11⟩)/√2
+Bell State |Ψ+⟩,P(|01⟩),0.5,0.5021,Bit-flipped pair (|01⟩ + |10⟩)/√2
+Bell State |Ψ+⟩,P(|10⟩),0.5,0.4979,Bit-flipped pair (|01⟩ + |10⟩)/√2
+Bell State |Ψ-⟩,P(|01⟩),0.5,0.5009,Singlet state (|01⟩ - |10⟩)/√2
+Bell State |Ψ-⟩,P(|10⟩),0.5,0.4991,Singlet state (|01⟩ - |10⟩)/√2
+CHSH Inequality,S Parameter,2.8284,2.8124,Quantum violation of Bell-CHSH bound (Classical S <= 2)
+Quantum Noise (Bit-Flip),State Fidelity F,1.0,0.745,Pauli-X noise error p = 0.15
+Quantum Noise (Phase-Flip),State Fidelity F,1.0,0.6715,Pauli-Z noise error p = 0.15
+Quantum Noise (Depolarizing),State Fidelity F,1.0,0.8238,Depolarizing channel error p = 0.15
