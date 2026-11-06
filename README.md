@@ -1,6 +1,6 @@
 # Quantum Circuit Simulation and Entanglement Analysis: A Qiskit-Based Computational Study
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KushagraS27/QuantumComputing_Projects/blob/main/Quantum_Circuit_Simulation.ipynb)
 [![Qiskit](https://img.shields.io/badge/Qiskit-2.0%2B-6929C4?logo=qiskit&logoColor=white)](https://qiskit.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
